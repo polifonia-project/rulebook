@@ -1,3 +1,18 @@
+---
+Id: rulebook
+Name: Ecosystem Development Rulebook
+Brief description: Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
+Type: Documentation
+Release date: TBD
+Release number: v0.1-dev
+Work Package: WP1
+Licence: Public domain, https://unlicense.org
+Links:
+- [Rulebook](https://github.com/polifonia-project/rulebook)
+Credits:
+- https://github.com/enridaga
+- https://github.com/raphaelfournier
+---
 # Rulebook
 Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
 
