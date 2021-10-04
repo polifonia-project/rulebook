@@ -10,14 +10,14 @@ Pilot:
 Keywords:
   - kw1
   - kw2
-Optional: link to a changelog 
+Changelog:
 Licence:
-Link to the release:
+Release link:
 Image:
 Logo:
 Demo:
 Links: 
-  - [Website](link) 
+  - [Website-name](link) 
 Running instance:
 Credits: 
 Related components:
@@ -42,16 +42,16 @@ See below for a description of the fields and expected values.
 
 - Id: TBD
 - Name: TBD 
-- Brief description:
-- Type:
-- Release date: 
-- Release number:
-- Work Package:
+- Brief description: 100 words max
+- Type:  Pilot spec, Dataset, Ontology, etc.
+- Release date: 2021-09-28
+- Release number: v1.5
+- Work Package: 
 - Pilot:
 - Keywords:
-- link to a changelog (optional)
-- Licence:
-- Link to the release:
+- Changelog (optional)
+- Licence: short name and optional link 
+- Link to the release
 - Image:
 - Logo:
 - Video / Demo:
@@ -59,7 +59,7 @@ See below for a description of the fields and expected values.
 - Running instance:
 - Credits: 
 - Related components:
-- Bibliography: 
+- Bibliography: lists 
   
 --- 
 
