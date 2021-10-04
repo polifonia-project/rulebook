@@ -9,9 +9,32 @@ Create a GH repository whenever there is an activity which leads to the producti
 ### What is a Polifonia Ecosystem *component*? 
 Basically, anything that is not a research paper, dissemination product (e.g., video presentation of a tool), or deliverable. 
 
-A preliminary list of types: 
+List of component types: 
 
- - TODO
+Documentation:
+ - Story (strictly from https://github.com/polifonia-project/stories)
+ - Tutorial
+ - Documentation
+
+Executables:
+ - Application
+ - Container
+ - Experiment
+ - CLI tool
+ 
+Reusable software:
+ - Library
+ - User Interface
+ - Service
+
+Data:
+ - Registry
+ - Ontology
+ - Dataset
+ - Repository
+ - Corpus
+ - Knowledge Graph
+
 
 ### Do I really need to create a repository for anything I do? 
 No. But as soon as the work is discussed or presented in a meeting a repository should be already there, or follow straight after! 
