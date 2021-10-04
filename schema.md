@@ -15,7 +15,7 @@ Licence:
 Link to the release:
 Image:
 Logo:
-Video / Demo:
+Demo:
 Links: 
   - [Website](link) 
 Running instance:
@@ -40,39 +40,26 @@ See below for a description of the fields and expected values.
 
 ## Description of fields 
 
-Id:
-Name:
-Brief description:
-Type:
-Release date: 
-Release number:
-Work Package:
-Pilot:
-Keywords:
-  - kw1
-  - kw2
-Optional: link to a changelog 
-Licence:
-Link to the release:
-Image:
-Logo:
-Video / Demo:
-Links: 
-  - [Website](link) 
-Running instance:
-Credits: 
-Related components:
-  - Dataset 
-    - Component id 1
-    - Component id 2 
-  - CLI
-    - CLI-component-id1
-    - CLI-component-id2
-  - Stories 
-  
-Bibliography: 
-  - one ref
-  - another ref
+- Id: TBD
+- Name: TBD 
+- Brief description:
+- Type:
+- Release date: 
+- Release number:
+- Work Package:
+- Pilot:
+- Keywords:
+- link to a changelog (optional)
+- Licence:
+- Link to the release:
+- Image:
+- Logo:
+- Video / Demo:
+- Links: [Website](link) 
+- Running instance:
+- Credits: 
+- Related components:
+- Bibliography: 
   
 --- 
 
