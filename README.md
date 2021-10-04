@@ -18,7 +18,7 @@ No. But as soon as the work is discussed or presented in a meeting a repository 
 A repository with annotated component descriptions (see later) is mandatory for components mentioned in official deliverables. 
 
 ### What if a repository already exists somewhere else? 
-You don’t need to fork the repository in the Polifonia organisation. External components can be described (with annotations) in the repository ecosystem-external-components [TODO]. 
+You don’t need to fork the repository in the Polifonia organisation. External components can be described (with annotations) in the repository ecosystem-external-components [See #5]. 
 
 ### Champion 
 Each repository must have a champion. Champions need to be annotated in the [CHAMPIONS.md](CHAMPIONS.md) file.
