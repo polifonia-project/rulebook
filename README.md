@@ -36,6 +36,9 @@ Useful readings on best practices:
  - https://gist.github.com/luismts/495d982e8c5b1a0ced4a57cf3d93cf60#file-gitcommitbestpractices-md
  - https://medium.com/@danielfeelfine/commit-verbs-101-why-i-like-to-use-this-and-why-you-should-also-like-it-d3ed2689ef70
 
+This is a [bad commit message](https://github.com/polifonia-project/rulebook/commit/78fb11bbe0fee670fea70dc3f3cf4bf096ab3513)
+This is a [good commit message](https://github.com/polifonia-project/rulebook/commit/60dc07702fd6aaf86b029da0c5f873f77f36313e)
+
 ### Tracking Progress Issue
 Progress on the development of each component MUST be reported in the Issues section periodically.
 Each repository **SHOULD** have a single **Tracking Progress Issue** for general progress update.
@@ -73,5 +76,5 @@ This website will provide a user interface for navigating through the Polifonia 
 Please note that the Polifonia ecosystem website uses the content of Github repositories as is, hence the need for good quality annotations / documentation.  
 
 Annotations 
-The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see this example). The schema to follow is [TODO]. 
+The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see this example). The schema to follow is [See #9]. 
  
