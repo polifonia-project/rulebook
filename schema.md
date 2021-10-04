@@ -35,7 +35,12 @@ Bibliography:
   
 --- 
 
-**Just edit this markdown file, to copy its header into your file!**
+## Important notice 
+
+```
+Just edit this markdown file, to copy its header into your file!
+```
+
 See below for a description of the fields and expected values.
 
 ## Description of fields 
