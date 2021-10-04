@@ -21,7 +21,7 @@ A repository with annotated component descriptions (see later) is mandatory for 
 You don’t need to fork the repository in the Polifonia organisation. External components can be described (with annotations) in the repository ecosystem-external-components [TODO]. 
 
 ### Champion 
-Each repository must have a champion. Champions need to be annotated in the XYZ file. [TODO]
+Each repository must have a champion. Champions need to be annotated in the [CHAMPIONS.md](CHAMPIONS.md) file.
 
 ### Discussion and decisions 
 Discussions can happen anywhere at anytime. However, decisions that impact the development of the component **MUST** be logged within an Issue (a Github issue, example) and motivated. 
