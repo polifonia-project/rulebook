@@ -55,7 +55,7 @@ See below for a description of the fields and expected values.
   | Release number | Version number for the current release | v1.5 |
   | Work Package | Relevant WPs | WP1, WP2 |
   | Pilot | Pilot identifier | FACETS, TUNES |
-  | Keywords | List of keywords | bullet list (max 8) |
+  | Keywords | List of keywords (max 8) | <ul><li>keyword1</li><li>keyword2</li><li>...</li></ul> |
   | Changelog | Link to a document specifiying the changes between this and the previous version | URL |
   | Licence | A licence for the code | MIT, GPLv3. A link may be provided: [Unlicense](https://unlicense.org/) |
   | Release link | A link towards a release archive/image | URL |
