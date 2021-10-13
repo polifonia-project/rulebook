@@ -5,7 +5,9 @@ Brief description: Guidelines, recommendations, and norms on how to contribute t
 Type: Documentation
 Release date: TBD
 Release number: v0.1-dev
-WP: WP1
+Persona: foobar
+WP: 
+- WP1
 Licence: Public domain, https://unlicense.org
 Links:
 - [Rulebook](https://github.com/polifonia-project/rulebook)
