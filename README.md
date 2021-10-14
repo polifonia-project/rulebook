@@ -109,11 +109,11 @@ Register your repository on Zenodo, by activating the related GitHub Action. See
 
  
 ## Ecosystem Components 
-A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a COMPONENT.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
+A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a component-name.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
 Those annotations will be used by the [Polifonia Ecosystem website](https://github.com/polifonia-project/ecosystem). 
 This website will provide a user interface for navigating through the Polifonia Ecosystem (with aggregation pages, tags, etc). 
 Please note that the Polifonia ecosystem website uses the content of Github repositories as is, hence the need for good quality annotations / documentation.  
 
-Annotations 
-The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see this example). The schema to follow is [See #9]. 
+### Developing Schema Components Annotations 
+The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The schema to follow is [this one](schema.md). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
  
