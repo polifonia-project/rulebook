@@ -91,6 +91,11 @@ The 3P are:
 
 Please note that the Tracking progress issue is only for updates. Detailed, task-based issues should be used for referencing changes (commits) and can be linked in the Tracking Progress Issue. 
 
+Examples:
+
+- [Tracking progress issue (Rulebook)](https://github.com/polifonia-project/rulebook/issues/7)
+- [Tracking progress issue (External Components)](https://github.com/polifonia-project/external-components/issues/1)
+
 ### Naming conventions 
 Some naming conventions have been discussed, feel free to contribute to the discussion here #2
 
