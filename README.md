@@ -17,40 +17,9 @@ credits:
 # Rulebook
 Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
 
-
-## Repositories 
+## Guidelines
 ### When to create a repository? 
 Create a GH repository whenever there is an activity which leads to the production of a *component* of the *Polifonia Ecosystem*.  
-
-### What is a Polifonia Ecosystem *component*? 
-Basically, anything that is not a research paper, dissemination product (e.g., video presentation of a tool), or deliverable. 
-
-List of component types: 
-
-Documentation:
- - Story (strictly from https://github.com/polifonia-project/stories)
- - Tutorial
- - Documentation
-
-Executables:
- - Application
- - Container
- - Experiment
- - CLI tool
- 
-Reusable software:
- - Library
- - User Interface
- - Service
-
-Data:
- - Registry
- - Ontology
- - Dataset
- - Repository
- - Corpus
- - Knowledge Graph
-
 
 ### Do I really need to create a repository for anything I do? 
 No. But as soon as the work is discussed or presented in a meeting a repository should be already there, or follow straight after! 
@@ -112,7 +81,36 @@ Use Semantic Versioning for release numbers, and follow the GitHub workflow for 
 
 Register your repository on Zenodo, by activating the related GitHub Action. See [this guide](https://guides.github.com/activities/citable-code/).
 
+## Contributing to the Ecosystem
+### What is a Polifonia Ecosystem *component*? 
+Basically, anything that is not a research paper, dissemination product (e.g., video presentation of a tool), or deliverable. 
+
+List of component types: 
+
+Documentation:
+ - Story (strictly from https://github.com/polifonia-project/stories)
+ - Tutorial
+ - Documentation
+
+Executables:
+ - Application
+ - Container
+ - Experiment
+ - CLI tool
  
+Reusable software:
+ - Library
+ - User Interface
+ - Service
+
+Data:
+ - Registry
+ - Ontology
+ - Dataset
+ - Repository
+ - Corpus
+ - Knowledge Graph
+
 ## Ecosystem Components 
 A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a component-name.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
 Those annotations will be used by the [Polifonia Ecosystem website](https://github.com/polifonia-project/ecosystem). 
