@@ -111,7 +111,7 @@ Data:
  - Corpus
  - Knowledge Graph
 
-## Ecosystem Components 
+### Polifonia Ecosystem Website
 A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a component-name.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
 Those annotations will be used by the [Polifonia Ecosystem website](https://github.com/polifonia-project/ecosystem). 
 This website will provide a user interface for navigating through the Polifonia Ecosystem (with aggregation pages, tags, etc). 
@@ -119,4 +119,13 @@ Please note that the Polifonia ecosystem website uses the content of Github repo
 
 ### Developing Schema Components Annotations 
 The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The schema to follow is [this one](schema.md). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
- 
+
+### Process towards ecosystem releases
+
+- Champions curate releases with project-specific frequency and rationale
+- TB calls for next Ecosystem Release
+- Champions reply giving details about version number and expected deadline (if any)
+- Champions ensure component metadata is accurate
+- Ecosystem Website prepare release candidate
+- TB tests and validates Ecosystem Website release candidate
+- Ecosystem released
