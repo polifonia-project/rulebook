@@ -66,12 +66,12 @@ Examples:
 - [Tracking progress issue (External Components)](https://github.com/polifonia-project/external-components/issues/1)
 
 ### Naming conventions 
-Some naming conventions have been discussed, feel free to contribute to the discussion here #2
+Some naming conventions have been discussed, feel free to contribute to the discussion [here](https://github.com/polifonia-project/rulebook/issues/2)
 
 For repositories 
 
- - Avoid including “Polifonia” in the name (e.g.) 
- - Avoid acronyms (ontology-network instead of ON) 
+ - Avoid including “Polifonia” in the name (e.g. `ecosystem` rather then `polifonia-ecosystem`) 
+ - Avoid acronyms (`ontology-network` instead of `ON`) 
 
 ### Branches 
 Use branches for managing different versions of the code / components. Avoid creating a branch for each sub-system (e.g. /datasets /ui etc... Instead, create different repositories. 
