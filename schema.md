@@ -37,8 +37,44 @@ bibliography:
 
 ## Important notice 
 
+Just copy the YAML code below and use it as the header of your component description MD file.
 ```
-Just copy the header of this file into yours!
+---
+id:
+name:
+brief-description:
+type:
+release-date: 
+release-number:
+work-package:
+pilot:
+keywords:
+  - kw1
+  - kw2
+changelog:
+licence:
+release link:
+image:
+logo:
+demo:
+links: 
+  - link
+running-instance:
+credits: 
+related-components:
+  - dataset 
+    - component-id-1
+    - component-id-2 
+  - cli
+    - cli-component-id1
+    - cli-component-id2
+  - stories 
+  
+bibliography: 
+  - oneref
+  - another ref
+  
+--- 
 ```
 
 See below for a description of the fields and expected values.
