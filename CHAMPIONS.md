@@ -12,4 +12,5 @@
 | https://github.com/polifonia-project/comparative-measure                          | https://github.com/fiorelaciroku                               |
 | https://github.com/polifonia-project/musical-performance                          | https://github.com/valecarriero                                |
 | https://github.com/polifonia-project/core                                         | https://github.com/valecarriero                                |
+| https://github.com/polifonia-project/folk_ngram_analysis                          | https://github.com/danDiamo
 
