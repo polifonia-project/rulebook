@@ -117,7 +117,8 @@ bibliography:
 
 ## Github documentation
 
-Please, refer to [Awesome-READMEs](https://github.com/matiassingers/awesome-readme) for a list of exemplar curated README files, or to this [example of good README file (librosa python library)](https://github.com/librosa/librosa)
+Please, refer to [Awesome-READMEs](https://github.com/matiassingers/awesome-readme) for a list of exemplar curated README files. 
+Here a [good example of README file for software (librosa python library)](https://github.com/librosa/librosa) and a [minimal template of README file for datasets](https://gist.github.com/shashvatshah9/5d587605cd087182ccffb46b6cf9e449)
 
 The documentation should include the following sections.
 
