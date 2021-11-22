@@ -7,6 +7,15 @@
 
 # Table of contents
 
+ * [Report](#report)
+    * [Summary](#summary)
+    * [Exploitability](#exploitability)
+    * [Future work](#future-work) 
+ * [Github](#github)
+    * [Checklist](#checklist)
+    * [Github documentation](#github-documentation)
+    * [Testing](#testing) 
+
 # Report
 
 **For each software** described in the deliverable, include the following three sections: **Summary**, **Exploitability, Future work**. 
@@ -134,7 +143,7 @@ The documentation should include the following sections.
 ## Testing
 
 <aside>
-🚧 At the current sta
+🚧 Work in progress: testing guidelines are currently optional — but recommended!
 
 </aside>
 
