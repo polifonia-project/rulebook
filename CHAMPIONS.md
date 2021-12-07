@@ -18,3 +18,4 @@
 | https://github.com/polifonia-project/meetups-dataset                              | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/child-dataset                                | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/organs-dataset                               | https://github.com/enridaga                                    |
+| https://github.com/polifonia-project/OCR                                          | https://github.com/andreamust                                  |
