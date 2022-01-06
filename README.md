@@ -129,3 +129,6 @@ The annotations should be written at the top of the markdown file, between 2 “
 - Ecosystem Website prepare release candidate
 - TB tests and validates Ecosystem Website release candidate
 - Ecosystem released
+
+## How to contribute to the Rulebook
+Please open an issue with proposals or questions about the rulebook!
