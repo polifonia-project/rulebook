@@ -35,8 +35,44 @@ bibliography:
 
 ## Important notice 
 
+Just copy the YAML code below and use it as the header of your component description MD file.
 ```
-Just copy the header of this file into yours!
+---
+id:
+name:
+brief-description:
+type:
+release-date: 
+release-number:
+work-package:
+pilot:
+keywords:
+  - kw1
+  - kw2
+changelog:
+licence:
+release link:
+image:
+logo:
+demo:
+links: 
+  - link
+running-instance:
+credits: 
+related-components:
+  - dataset 
+    - component-id-1
+    - component-id-2 
+  - cli
+    - cli-component-id1
+    - cli-component-id2
+  - stories 
+  
+bibliography: 
+  - oneref
+  - another ref
+  
+--- 
 ```
 
 See below for a description of the fields and expected values.
@@ -48,7 +84,7 @@ See below for a description of the fields and expected values.
 | id | Identifier of the component | lowercase |
 | name | Full name of the component | Text (no size limit) |
 | description | A brief description of the component | 100 word max. |
-| type | Type of component | Pilot spec, Dataset, Ontology… |
+| type | Type of component | one of: Tutorial, Documentation, Application, Container, Experiment, CLI, Library, User, Interface, Service, Registry, Ontology, Dataset, Repository, Corpus, "Knowledge Graph" |
 | release-date | Date of the release | 2021-09-28 (ISO 8601) |
 | release-link | Link to the release | https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.5.1 |
 | release-number | Version number for the current release | v0.1 |

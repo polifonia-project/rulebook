@@ -17,47 +17,16 @@ credits:
 # Rulebook
 Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
 
-
-## Repositories 
+## Guidelines
 ### When to create a repository? 
 Create a GH repository whenever there is an activity which leads to the production of a *component* of the *Polifonia Ecosystem*.  
-
-### What is a Polifonia Ecosystem *component*? 
-Basically, anything that is not a research paper, dissemination product (e.g., video presentation of a tool), or deliverable. 
-
-List of component types: 
-
-Documentation:
- - Story (strictly from https://github.com/polifonia-project/stories)
- - Tutorial
- - Documentation
-
-Executables:
- - Application
- - Container
- - Experiment
- - CLI tool
- 
-Reusable software:
- - Library
- - User Interface
- - Service
-
-Data:
- - Registry
- - Ontology
- - Dataset
- - Repository
- - Corpus
- - Knowledge Graph
-
 
 ### Do I really need to create a repository for anything I do? 
 No. But as soon as the work is discussed or presented in a meeting a repository should be already there, or follow straight after! 
 A repository with annotated component descriptions (see later) is mandatory for components mentioned in official deliverables. 
 
 ### What if a repository already exists somewhere else? 
-You don’t need to fork the repository in the Polifonia organisation. External components can be described (with annotations) in the repository ecosystem-external-components [See #5]. 
+You don’t need to fork the repository in the Polifonia organisation. External components can be described (with annotations) in the repository [external-components](https://github.com/polifonia-project/external-components/). 
 
 ### Champion 
 Each repository must have a champion. Champions need to be annotated in the [CHAMPIONS.md](CHAMPIONS.md) file.
@@ -91,13 +60,18 @@ The 3P are:
 
 Please note that the Tracking progress issue is only for updates. Detailed, task-based issues should be used for referencing changes (commits) and can be linked in the Tracking Progress Issue. 
 
+Examples:
+
+- [Tracking progress issue (Rulebook)](https://github.com/polifonia-project/rulebook/issues/7)
+- [Tracking progress issue (External Components)](https://github.com/polifonia-project/external-components/issues/1)
+
 ### Naming conventions 
-Some naming conventions have been discussed, feel free to contribute to the discussion here #2
+Some naming conventions have been discussed, feel free to contribute to the discussion [here](https://github.com/polifonia-project/rulebook/issues/2)
 
 For repositories 
 
- - Avoid including “Polifonia” in the name (e.g.) 
- - Avoid acronyms (ontology-network instead of ON) 
+ - Avoid including “Polifonia” in the name (e.g. `ecosystem` rather then `polifonia-ecosystem`) 
+ - Avoid acronyms (`ontology-network` instead of `ON`) 
 
 ### Branches 
 Use branches for managing different versions of the code / components. Avoid creating a branch for each sub-system (e.g. /datasets /ui etc... Instead, create different repositories. 
@@ -105,15 +79,56 @@ Use branches for managing different versions of the code / components. Avoid cre
 ### Releases 
 Use Semantic Versioning for release numbers, and follow the GitHub workflow for releasing.
 
-Register your repository on Zenodo, by activating the related GitHub Action. See [this guide](https://guides.github.com/activities/citable-code/)
+Register your repository on Zenodo, by activating the related GitHub Action. See [this guide](https://guides.github.com/activities/citable-code/).
 
+## Contributing to the Ecosystem
+### What is a Polifonia Ecosystem *component*? 
+Basically, anything that is not a research paper, dissemination product (e.g., video presentation of a tool), or deliverable. 
+
+List of component types: 
+
+Documentation:
+ - Story (strictly from https://github.com/polifonia-project/stories)
+ - Tutorial
+ - Documentation
+
+Executables:
+ - Application
+ - Container
+ - Experiment
+ - CLI tool
  
-## Ecosystem Components 
-A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a COMPONENT.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
+Reusable software:
+ - Library
+ - User Interface
+ - Service
+
+Data:
+ - Registry
+ - Ontology
+ - Dataset
+ - Repository
+ - Corpus
+ - Knowledge Graph
+
+### Polifonia Ecosystem Website
+A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a component-name.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
 Those annotations will be used by the [Polifonia Ecosystem website](https://github.com/polifonia-project/ecosystem). 
 This website will provide a user interface for navigating through the Polifonia Ecosystem (with aggregation pages, tags, etc). 
 Please note that the Polifonia ecosystem website uses the content of Github repositories as is, hence the need for good quality annotations / documentation.  
 
-Annotations 
-The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see this example). The schema to follow is [See #9]. 
- 
+### Developing Schema Components Annotations 
+The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The schema to follow is [this one](schema.md). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
+
+### Process towards ecosystem releases
+
+- Champions curate releases with project-specific frequency and rationale
+- TB calls for next Ecosystem Release
+- Champions reply giving details about version number and expected deadline (if any)
+- Champions ensure component metadata is accurate
+- Ecosystem Website prepare release candidate
+- TB tests and validates Ecosystem Website release candidate
+- Ecosystem released
+
+## How to contribute to the Rulebook
+Please open an issue with proposals or questions about the rulebook!
