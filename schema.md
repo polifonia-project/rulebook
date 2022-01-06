@@ -1,10 +1,11 @@
 ---
 id:
 name:
-brief-description:
+description:
 type:
 release-date: 
 release-number:
+release-link:
 work-package:
 pilot:
 keywords:
@@ -21,13 +22,10 @@ links:
 running-instance:
 credits: 
 related-components:
-  - dataset 
-    - component-id-1
-    - component-id-2 
-  - cli
-    - cli-component-id1
-    - cli-component-id2
-  - stories 
+  - component-id-1
+  - component-id-2 
+  - cli-component-id1
+  - cli-component-id2
   
 bibliography: 
   - oneref
@@ -52,9 +50,10 @@ See below for a description of the fields and expected values.
 | description | A brief description of the component | 100 word max. |
 | type | Type of component | Pilot spec, Dataset, Ontology… |
 | release-date | Date of the release | 2021-09-28 (ISO 8601) |
-| release-number | Version number for the current release | v1.5 |
-| work-package | Relevant WPs | WP1, WP2 |
-| pilot | Pilot identifier | FACETS, TUNES |
+| release-link | Link to the release | https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.5.1 |
+| release-number | Version number for the current release | v0.1 |
+| work-package | Relevant WPs (list) | [ WP1, WP2 ] |
+| pilot | Pilot identifiers | [ FACETS, TUNES ] |
 | keywords | List of keywords (max 8) | <ul><li>keyword1</li><li>keyword2</li><li>...</li></ul> |
 | changelog | Link to a document specifiying the changes between this and the previous version | URL |
 | licence | A licence for the code | MIT, GPLv3. A link may be provided: [Unlicense](https://unlicense.org/) |
@@ -65,7 +64,7 @@ See below for a description of the fields and expected values.
 | links | A list of relevant web links | List of URLs <ul><li>http://onelink.com </li><li>http://www.anotherone.com </li></ul> |
 | running-instance | A link towards a running instance of the component | URL |
 | credits | Names of people participating in the developement | E. Daga (OU), R. Fournier-S'niehotta (CNAM) |
-| related-components | Relevant components, organized in lists by Types | <ul><li>Dataset</li><ul><li>Component-id1</li><li>Component-id2</li></ul><li>Stories</li><ul><li>Story1</li><li>Story2</li></ul></ul> |
+| related-components | Relevant components | [ component-id1, component-id2, ... ] |
 | bibliography | Relevant publications | List of references |
 
 ## Information that can be automatically derived
