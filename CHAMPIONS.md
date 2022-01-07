@@ -15,7 +15,7 @@
 | https://github.com/polifonia-project/folk_ngram_analysis                          | https://github.com/danDiamo                                    |
 | https://github.com/polifonia-project/folk_ngram_analysis                          | https://github.com/danDiamo                                    |
 | https://github.com/polifonia-project/harmonic-similarity                          | https://github.com/jonnybluesman https://github.com/andreamust |
-| https://github.com/polifonia-project/meetups-dataset                              | https://github.com/enridaga                                    |
+| https://github.com/polifonia-project/meetups_pilot                                | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/child-dataset                                | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/organs-dataset                               | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/OCR                                          | https://github.com/andreamust                                  |
