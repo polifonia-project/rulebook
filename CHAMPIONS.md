@@ -19,3 +19,4 @@
 | https://github.com/polifonia-project/child-dataset                                | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/organs-dataset                               | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/OCR                                          | https://github.com/andreamust                                  |
+| https://github.com/polifonia-project/ontology-network                             | https://github.com/albertmeronyo                               |
