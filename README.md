@@ -123,6 +123,7 @@ The annotations should be written at the top of the markdown file, between 2 “
 ### Process towards ecosystem releases
 
 - Champions curate releases with project-specific frequency and rationale
+- - Releases must be linked to Zenodo and the related Polifonia Community
 - TB calls for next Ecosystem Release
 - Champions reply giving details about version number and expected deadline (if any)
 - Champions ensure component metadata is accurate
