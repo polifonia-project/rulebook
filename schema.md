@@ -1,16 +1,15 @@
 ---
-id:
-name:
+id: rulebook-schema
+name: Ecosystem Component Annotation Schema
 description:
-type:
+type: Schema
 release-date: 
 release-number:
 release-link:
 work-package:
 pilot:
 keywords:
-  - kw1
-  - kw2
+  - Ecosystem
 changelog:
 licence:
 release link:
@@ -18,19 +17,11 @@ image:
 logo:
 demo:
 links: 
-  - link
 running-instance:
 credits: 
 related-components:
-  - component-id-1
-  - component-id-2 
-  - cli-component-id1
-  - cli-component-id2
-  
-bibliography: 
-  - oneref
-  - another ref
-  
+  - Rulebook
+bibliography:   
 --- 
 
 ## Important notice 
