@@ -1,5 +1,5 @@
 ---
-id: rulebook-schema
+component-id: rulebook-schema
 name: Ecosystem Component Annotation Schema
 description:
 type: Schema
