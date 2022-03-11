@@ -1,5 +1,5 @@
 ---
-id: rulebook
+component-id: rulebook
 name: Ecosystem Development Rulebook
 description: Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
 type: Documentation
@@ -88,6 +88,7 @@ Basically, anything that is not a research paper, dissemination product (e.g., v
 List of component types: 
 
 Documentation:
+ - Persona (strictly from https://github.com/polifonia-project/stories)
  - Story (strictly from https://github.com/polifonia-project/stories)
  - Tutorial
  - Documentation
