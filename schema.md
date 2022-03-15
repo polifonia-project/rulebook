@@ -51,14 +51,8 @@ links:
 running-instance:
 credits: 
 related-components:
-  - dataset 
-    - component-id-1
-    - component-id-2 
-  - cli
-    - cli-component-id1
-    - cli-component-id2
-  - stories 
-  
+ - component-id-1
+ - component-id-2
 bibliography: 
   - oneref
   - another ref
