@@ -66,7 +66,7 @@ See below for a description of the fields and expected values.
 
 | Name | Description | Format/Example |
 |------|-------------|----------------|
-| id | Identifier of the component | lowercase |
+| component-id | Identifier of the component | lowercase |
 | name | Full name of the component | Text (no size limit) |
 | description | A brief description of the component | 100 word max. |
 | type | Type of component | one of: Tutorial, Documentation, Application, Container, Experiment, CLI, Library, User, Interface, Service, Registry, Ontology, Dataset, Repository, Corpus, "Knowledge Graph" |
