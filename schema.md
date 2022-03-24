@@ -23,8 +23,9 @@ related-components:
   - Rulebook
 bibliography:   
 --- 
+# Ecosystem Component Annotation Schema
 
-## Important notice 
+## Use the schema 
 
 Just copy the YAML code below and use it as the header of your component description MD file.
 ```
