@@ -1,12 +1,13 @@
 ---
 component-id: rulebook-schema
 name: Ecosystem Component Annotation Schema
-description:
+description: the Ecosystem Component Annotation Schema
 type: Schema
-release-date: 
-release-number:
-release-link:
+release-date: 21/04/2022
+release-number: v1.0
+release-link: 
 work-package:
+- WP1
 pilot:
 keywords:
   - Ecosystem
