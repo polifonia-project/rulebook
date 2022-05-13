@@ -33,7 +33,7 @@ Just copy the YAML code below and use it as the header of your component descrip
 ---
 component-id:
 name:
-brief-description:
+description:
 type:
 release-date: 
 release-number:
