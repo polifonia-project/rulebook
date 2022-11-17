@@ -15,6 +15,7 @@
     * [Checklist](#checklist)
     * [Github documentation](#github-documentation)
     * [Testing](#testing) 
+ * [Reviewing](#reviewing) 
 
 # Report
 
@@ -149,3 +150,9 @@ The documentation should include the following sections.
 </aside>
 
  It is good practice to start planning for testing from the very first moment the software component is engineered — before any actual coding takes place. Designing **test cases** for each function-method that is implemented, together with a simple framework allowing for their automatic execution is desirable. Nevertheless, the way the testing strategy is implement pretty much depends on the type of software that is developed. Therefore, this last guideline is more of an invitation to deliver a testing methodology, as part of the codebase, rather than enforcing a specific strategy. Regardless of the software-specific methodology, please make sure to provide all the relevant instructions to configure and run the testing scripts.
+
+---
+
+# Reviewing
+
+There is a useful checklist for *reviewing software deliverables* [here](https://liveunibo.sharepoint.com/:w:/r/sites/polifonia/Shared%20Documents/Deliverables/software-deliverable-checklist.docx?d=w15bea5d87fc34a1a812c8cad237aecbd&csf=1&web=1&e=03keKc).
