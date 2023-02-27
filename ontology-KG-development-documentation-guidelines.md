@@ -41,11 +41,13 @@ bibliography:
  - The namespace of the ontology (published within the Polifonia Ontology network) must follow this rule:
     - Rule: https://w3id.org/polifonia/ontology/[name-of-the-ontology
     - Example: https://w3id.org/polifonia/ontology/musical-composition
-
+    - This rule is in line with the recommendations for URIs that can be found in the literature, specifically those by [ISA](https://ec.europa.eu/isa2/home_en/) [project](https://joinup.ec.europa.eu/sites/default/files/document/2013-02/D7.1.3\%20-\%20Study\%20on\%20persistent\%20URIs.pdf), since it uses a dedicated service (w3id.org), and mentions the type of the resource in the URI, i.e. ontology, along with the specific ontology module
+    - a preferred prefix should be indicated for each namespace 
 - The ontology should be annotated with labels (rdfs:label) and comments (rdfs:comment).
-- The ontology should contain alignments to possible ODPs reused through [OPLaX ontology](https://w3id.org/OPLaX).
-  - See an example of an ontology annotated with the reused patterns here: https://github.com/ICCD-MiBACT/ArCo/blob/master/ArCo-release/ontologie/catalogue/1.2/catalogue.owl
-
+- The ontology should contain alignments to possible ODPs reused:
+    - Such alignments make it explicit which patterns have been reused, supporting a pattern-based exploration of the ontology, and guaranteeing interoperability between ontologies at the level of patterns. 
+    - Such alignments should be expressed through [OPLaX ontology](https://w3id.org/OPLaX), which reuses and extends state-of-the-art patterns annotation languages.
+    - See an example of an ontology annotated with the reused patterns here: https://github.com/ICCD-MiBACT/ArCo/blob/master/ArCo-release/ontologie/catalogue/1.2/catalogue.owl
 - The ontology should contain alignments to possible ontologies produced by partners of Polifonia and reused within the project.
 
 ### Ontology documentation guidelines
