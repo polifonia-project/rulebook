@@ -4,7 +4,7 @@ name: Ecosystem Development Rulebook
 description: Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
 type: Documentation
 release-date: 21/04/2022
-release-number: v1.0
+release-number: v2.1
 work-package: 
 - WP1
 licence: Public domain, https://unlicense.org
