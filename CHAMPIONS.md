@@ -36,4 +36,4 @@
 | https://github.com/polifonia-project/XD-Testing                                   | https://github.com/fiorelaciroku                               |
 | https://github.com/polifonia-project/textual-corpus-population                    | https://github.com/arianna-graciotti                           |
 | https://github.com/polifonia-project/polifonia-lexicon                            | https://github.com/arianna-graciotti                           |
-
+| https://github.com/polifonia-project/broadcast-concerts-knowledge-graph           | https://github.com/mwigham                                     |
