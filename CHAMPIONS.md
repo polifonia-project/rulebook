@@ -28,6 +28,7 @@
 | https://github.com/polifonia-project/OCR                                          | https://github.com/andreamust                                  |
 | https://github.com/polifonia-project/ontology-network                             | https://github.com/albertmeronyo                               |
 | https://github.com/polifonia-project/scorelib-ontology                            | https://github.com/rigaux                                      |
+| https://github.com/polifonia-project/facets-search-engine/                        | https://github.com/raphaelfournier                             |
 | https://github.com/polifonia-project/licences                                     | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/docuemntary-evidence-benchmark               | https://github.com/enridaga                                    |
 | https://github.com/polifonia-project/sparql-anything-cookbook                     | https://github.com/enridaga                                    |
