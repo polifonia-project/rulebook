@@ -38,3 +38,4 @@
 | https://github.com/polifonia-project/textual-corpus-population                    | https://github.com/arianna-graciotti                           |
 | https://github.com/polifonia-project/polifonia-lexicon                            | https://github.com/arianna-graciotti                           |
 | https://github.com/polifonia-project/broadcast-concerts-knowledge-graph           | https://github.com/mwigham                                     |
+| https://github.com/polifonia-project/documentary-evidence-benchmark               | https://github.com/cfestus                                     | 
