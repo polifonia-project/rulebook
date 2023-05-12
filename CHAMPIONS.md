@@ -10,7 +10,6 @@ licence:
 related-components:
 - extends:
   - rulebook
-- 
 --- 
 # Champions
 
