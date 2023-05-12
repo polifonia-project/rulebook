@@ -3,100 +3,131 @@ component-id: rulebook-schema
 name: Ecosystem Component Annotation Schema
 description: the Ecosystem Component Annotation Schema
 type: Schema
-release-date: 21/04/2022
-release-number: v1.0
-release-link: 
 work-package:
 - WP1
-pilot:
-keywords:
-  - Ecosystem
-changelog:
-licence:
-release link:
-image:
-logo:
-demo:
-links: 
-running-instance:
-credits: 
+licence: APACHE-2.0
 related-components:
-  - Rulebook
-bibliography:   
+  - reuses:
+    - "Ecosystem Annotation Schema https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md"
 --- 
 # Ecosystem Component Annotation Schema
 
+A complete list of component and container types and related annotation terms can be found in the [reference documentation](https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md).
+
 ## Use the schema 
 
-Just copy the YAML code below and use it as the header of your component description MD file.
+### Components
+Just copy the YAML code below and use it as the header of your component description MD file by changing terms values and removing terms that are not needed.
 ```
 ---
-component-id:
-name:
-description:
-type:
-release-date: 
-release-number:
-work-package:
+component-id: fabulous-component-source-code
+type: Software
+name: The Fabulous Source Code
+description: Source code of The Fabulous
+image: https://www.example.org/image.png
+logo: https://www.example.org/logo.png
+work-package: 
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
+- WP8
 pilot:
-keywords:
-  - kw1
-  - kw2
-changelog:
+- TUNES
+- BELLS
+- INTERLINK
+- MUSICBO
+- TONALITIES
+- MEETUPS
+- CHILD
+- ORGANS
+- ACCESS
+- FACETS
+project: polifonia-project
+resource: https://github.com/fabulous-inc/repo1/releases
+demo: https://www.example.org/fabulous/demo
+release-date: YYYY/MM/DD
+release-number: v1.0-alpha
+release-link: https://github.com/polifonia-project/repo1/releases/tag/v1.0
+doi: 10.5281/zenodo.000000
+changelog: https://github.com/polifonia-project/repo1/releases/tag/v1.0
 licence:
-release link:
-image:
-logo:
-demo:
-links: 
-  - link
-running-instance:
-credits: 
+- CC-BY_v4
+- CC-BY-SA_v4
+- CC-BY-NC-ND_v4
+- Apache-2.0
+copyright: "Copyright (c) 2023 The Polifonia Project Contributors"
+contributors:
+- A developer <http://www.example.org>
+- Another contributor <name.surname@example.com>
 related-components:
- - component-id-1
- - component-id-2
-bibliography: 
-  - oneref
-  - another ref
-  
+- informed-by:
+  - fabulous-requirements
+- use-case:
+  - fabulous-uc
+- story:
+  - fabulous-story
+- persona:
+  - fabulous-persona
+- documentation: 
+  - fabulous-component-docs
+  - fabulous-component-tutorials
+- evaluated-in:
+  - fabulous-evaluation
+- extends:
+  - "A Java project Jena https://www.example.org"
+- reuses:
+  - "Apache Camel https://camel.apache.org/"
+  - another-dataset
+- serves:
+  - another-dataset
+- generated-by:
+  - The AI code generator http://www.my-software-factory.com
+- derived-from:
+  - this-other-component
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746"
 --- 
 ```
 
-See below for a description of the fields and expected values.
 
-## Description of fields 
+### Containers
+Just customise the YAML code below and use it as the header of your component description MD file by changing terms values and removing terms that are not needed. 
 
-| Name | Description | Format/Example |
-|------|-------------|----------------|
-| component-id | Identifier of the component | lowercase |
-| name | Full name of the component | Text (no size limit) |
-| description | A brief description of the component | 100 word max. |
-| type | Type of component | one of: Tutorial, Documentation, Application, Container, Experiment, CLI, Library, User, Interface, Service, Registry, Ontology, Dataset, Repository, Corpus, "Knowledge Graph" |
-| release-date | Date of the release | 2021-09-28 (ISO 8601) |
-| release-link | Link to the release | https://github.com/SPARQL-Anything/sparql.anything/releases/tag/v0.5.1 |
-| release-number | Version number for the current release | v0.1 |
-| work-package | Relevant WPs (list) | [ WP1, WP2 ] |
-| pilot | Pilot identifiers | [ FACETS, TUNES ] |
-| keywords | List of keywords (max 8) | <ul><li>keyword1</li><li>keyword2</li><li>...</li></ul> |
-| changelog | Link to a document specifiying the changes between this and the previous version | URL |
-| licence | A licence for the code | MIT, GPLv3. A link may be provided: [Unlicense](https://unlicense.org/) |
-| release-link | A link towards a release archive/image | URL |
-| image | A presentation image (JPEG, PNG, etc.) | URL |
-| logo | A logo for the component (JPEG, PNG, etc.) | URL |
-| demo | A demontration for the component (e.g., video tutorial) | A link for the demo |
-| links | A list of relevant web links | List of URLs <ul><li>http://onelink.com </li><li>http://www.anotherone.com </li></ul> |
-| running-instance | A link towards a running instance of the component | URL |
-| credits | Names of people participating in the developement | E. Daga (OU), R. Fournier-S'niehotta (CNAM) |
-| related-components | Relevant components | [ component-id1, component-id2, ... ] |
-| bibliography | Relevant publications | List of references |
+```
+container-id: fabulous
+name: The Fabulous Project
+description: The Fabulous Project is a very important part of the Polifonia ecosystem.
+type: Project
+work-package: 
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
+- WP8
+pilot:
+- ThePilot
+project: a-fabulous-project
+bibliography:
+- main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development. Child Development Perspectives, 13(3), 145-153."
+- publication: 
+  - "Smith, J. (2020). The Impact of Social Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2), 45-62."
+- funder:
+  - name: Horizon 2020 Framework Programme
+    url: https://cordis.europa.eu/programme/id/H2020-EC
+    grant-agreement: "101004746"
+credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
+- has-part:
+  - fabulous-component-source-code
+  - fabulous-docs
+  - fabulous-tutorials
+  - fabulous-evaluation
+  - fabulous-requirements
+  - fabulous-dataset
 
-## Information that can be automatically derived
-
-- Statistics such as number of commits 
-- Contributors (number of them or list of them) 
-- Creation date 
-- Number of releases 
-- Size 
-- Programming language 
-- Link to repository, issues, etc … 
-- Citation 
+```

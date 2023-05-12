@@ -1,18 +1,23 @@
 ---
 component-id: rulebook
-name: Ecosystem Development Rulebook
+name: Polifonia Ecosystem Development Rulebook
 description: Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
 type: Documentation
 release-date: 21/04/2022
 release-number: v2.1
+release-link: TODO
 work-package: 
 - WP1
-licence: Public domain, https://unlicense.org
-links:
-- https://github.com/polifonia-project/rulebook
-credits:
+licence:
+- CC0
+resource: https://github.com/polifonia-project/rulebook
+contributors:
 - https://github.com/enridaga
 - https://github.com/raphaelfournier
+related-components:
+- reuses:
+  - rulebook-schema
+  - ontology-rulebook
 ---
 # Rulebook
 Guidelines, recommendations, and norms on how to contribute to the Polifonia Ecosystem.
@@ -82,35 +87,42 @@ Use Semantic Versioning for release numbers, and follow the GitHub workflow for 
 Register your repository on Zenodo, by activating the related GitHub Action. See [this guide](https://guides.github.com/activities/citable-code/).
 
 ## Contributing to the Ecosystem
-### What is a Polifonia Ecosystem *component*? 
-Basically, anything that is not a research paper, dissemination product (e.g., video presentation of a tool), or deliverable. 
+### What is an Ecosystem *component*? 
+Any resource produced by or used in the research activity. See the [reference documentation](https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md) for a list of component types.
 
-List of component types: 
+### What is an Ecosystem *container*?  
+Components can be grouped in containers, representing a research activity (e.g. a project). See the [reference documentation](https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md) for a list of container types.
 
-Documentation:
- - Persona (strictly from https://github.com/polifonia-project/stories)
- - Story (strictly from https://github.com/polifonia-project/stories)
- - Tutorial
- - Documentation
+Tge Polifonia Ecosystem includes by default the following containers.
 
-Executables:
- - Application
- - Container
- - Experiment
- - CLI tool
- 
-Reusable software:
- - Library
- - User Interface
- - Service
+Containers of type Project:
 
-Data:
- - Registry
- - Ontology
- - Dataset
- - Repository
- - Corpus
- - Knowledge Graph
+- polifonia-project
+
+Containers of type WorkPackage
+
+- WP1
+- WP2
+- WP3
+- WP4
+- WP5
+- WP6
+- WP7
+- WP8
+
+Containers of type Pilot
+
+- TUNES
+- BELLS
+- INTERLINK
+- MUSICBO
+- TONALITIES
+- MEETUPS
+- CHILD
+- ORGANS
+- ACCESS
+- FACETS
+
 
 ### Polifonia Ecosystem Website
 A repository contains the development work for at least 1 component in the **Polifonia Ecosystem**. One markdown text file should expose annotations (metadata) relative to a single component included in the repository. For example, a component-name.md file using the annotation schema of the Polifonia Ecosystem (the file can have any name). A repository can include multiple annotated files, hence expose multiple components. 
@@ -119,7 +131,7 @@ This website will provide a user interface for navigating through the Polifonia 
 Please note that the Polifonia ecosystem website uses the content of Github repositories as is, hence the need for good quality annotations / documentation.  
 
 ### Developing Schema Components Annotations 
-The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The schema to follow is [this one](schema.md). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
+The annotations should be written at the top of the markdown file, between 2 “---” lines. The markup format is YAML (mostly a “key: value” format, see also example at the top of this file). The reference documentation of the annotation schema can be found at [this link](https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md). Developers can use this service to test the YAML code:  https://jsonformatter.org/yaml-validator .
 
 ### Process towards ecosystem releases
 
