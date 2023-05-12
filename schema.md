@@ -5,10 +5,13 @@ description: the Ecosystem Component Annotation Schema
 type: Schema
 work-package:
 - WP1
-licence: APACHE-2.0
+licence: 
+- CC0
 related-components:
-  - reuses:
-    - "Ecosystem Annotation Schema https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md"
+- reuses:
+  - "Ecosystem Annotation Schema https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md"
+- extends:
+  - rulebook
 --- 
 # Ecosystem Component Annotation Schema
 

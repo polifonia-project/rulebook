@@ -1,3 +1,17 @@
+---
+component-id: rulebook-champions
+name: Polifonia Ecosystem Champions
+description: List of reference administrators of repositories relevant to the Polifonia Ecosystem
+type: Documentation
+work-package:
+- WP1
+licence:
+- CC0
+related-components:
+- extends:
+  - rulebook
+- 
+--- 
 # Champions
 
 | Repository                                                                        | Champion                                                       |

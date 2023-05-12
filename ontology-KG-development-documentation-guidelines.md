@@ -18,18 +18,8 @@ pilot:
 keywords:
   - Ontology/KG development
   - Ontology/KG documentation
-changelog:
-licence:
-release link:
-image:
-logo:
-demo:
-links: 
-running-instance:
-credits: 
-related-components:
-  - Rulebook
-bibliography:   
+- extends:
+  - rulebook 
 --- 
 
 # Ontology and knowledge graph development and documentation guidelines
