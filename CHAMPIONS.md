@@ -54,3 +54,5 @@ related-components:
 | https://github.com/polifonia-project/patterns-knowledge-graph                     | https://github.com/jmmcd                                       |
 | https://github.com/polifonia-project/tonalities_pilot                             | https://github.com/guillotel-nothmann                          |
 | https://github.com/polifonia-project/music-analysis-ontology                      | https://github.com/guillotel-nothmann                          |
+| https://github.com/polifonia-project/bells-ontology
+| https://github.com/polifonia-project/bells-knowledge-graph
