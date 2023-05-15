@@ -52,4 +52,5 @@ related-components:
 | https://github.com/polifonia-project/polifonia-lexicon                            | https://github.com/arianna-graciotti                           |
 | https://github.com/polifonia-project/broadcast-concerts-knowledge-graph           | https://github.com/mwigham                                     |
 | https://github.com/polifonia-project/patterns-knowledge-graph                     | https://github.com/jmmcd                                       |
- 
+| https://github.com/polifonia-project/tonalities_pilot                             | https://github.com/guillotel-nothmann                          |
+| https://github.com/polifonia-project/music-analysis-ontology                      | https://github.com/guillotel-nothmann                          |
