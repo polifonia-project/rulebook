@@ -18,6 +18,7 @@ pilot:
 keywords:
   - Ontology/KG development
   - Ontology/KG documentation
+related-components:
 - extends:
   - rulebook 
 --- 
