@@ -2,7 +2,7 @@
 component-id: ontology-rulebook
 name: Ontology and knowledge graph development and documentation guidelines
 description: The guidelines for the development and documentation of an ontology and a knowledge graph
-type: Schema
+type: Documentation
 release-date: TBD
 release-number: v1.0
 release-link: 

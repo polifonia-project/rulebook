@@ -9,7 +9,7 @@ release-link: TODO
 work-package: 
 - WP1
 licence:
-- CC0
+- Cc010Universal
 resource: https://github.com/polifonia-project/rulebook
 contributors:
 - https://github.com/enridaga

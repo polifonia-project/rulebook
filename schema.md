@@ -6,7 +6,7 @@ type: Schema
 work-package:
 - WP1
 licence: 
-- CC0
+- Cc010Universal
 related-components:
 - reuses:
   - "Ecosystem Annotation Schema https://github.com/reeco-framework/reeco-annotation-schema/blob/main/schema/README.md"
