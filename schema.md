@@ -115,17 +115,17 @@ work-package:
 - WP8
 pilot:
 - ThePilot
-project: a-fabulous-project
+project: polifonia-project
 bibliography:
 - main-publication: "Brown, L. (2019). The Role of Parenting Styles in Child Development. Child Development Perspectives, 13(3), 145-153."
 - publication: 
   - "Smith, J. (2020). The Impact of Social Media on Mental Health. Journal of Psychology and Behavioral Sciences, 15(2), 45-62."
-- funder:
+funder:
   - name: Horizon 2020 Framework Programme
     url: https://cordis.europa.eu/programme/id/H2020-EC
     grant-agreement: "https://cordis.europa.eu/project/id/101004746"
-credits: "This project has received funding from the Lorem Ipsum Funder research and innovation programme under grant agreement 01234556."
-- has-part:
+credits: "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement N. 101004746."
+has-part:
   - fabulous-component-source-code
   - fabulous-docs
   - fabulous-tutorials
