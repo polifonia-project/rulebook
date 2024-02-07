@@ -63,3 +63,5 @@ related-components:
 | https://github.com/polifonia-project/scorelib-ontology                            | https://github.com/rigaux                                                                      |
 | https://github.com/polifonia-project/bells-ontology                               | https://github.com/valecarriero                                                                |
 | https://github.com/polifonia-project/organs-ontology                              | https://github.com/fciroku                                                                     |
+| https://github.com/polifonia-project/pattern-exploration-gui                      | https://github.com/rorys4                                                                      |
+| https://github.com/polifonia-project/pattern-explorations-backend                 | https://github.com/rorys4                                                                      |
